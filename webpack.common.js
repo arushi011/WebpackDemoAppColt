@@ -16,6 +16,22 @@ module.exports = {
             // both used together have to be put in correct order
             // order of pipe is R to L
           },
-        ],
+          {
+            test: /\.html$/,
+            use: ['html-loader']
+          },
+          {
+            test: /\.(png|jpg|gif|svg)$/,
+            use: [
+              {
+                loader: 'file-loader',
+                options: {
+                  name: "[name].[hash].[ext]",
+                  outputPath: "imgs"
+                },
+              },
+            ],
+          }
+        ]
     }
 }
