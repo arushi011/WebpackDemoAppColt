@@ -33,5 +33,9 @@
     "webpack-cli": "^3.3.8",
     "webpack-dev-server": "^3.8.0",
     "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
   }
 }

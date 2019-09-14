@@ -8,7 +8,7 @@ module.exports = merge(common, {
     mode: "production",
     //devtool: "none", // to avoid evals
     output: {
-        filename: "main.[ContentHash].js",
+        filename: "[name].[ContentHash].bundle.js",
         path:  path.resolve(__dirname, "dist")
     },
     plugins: [ new CleanWebpackPlugin()]
