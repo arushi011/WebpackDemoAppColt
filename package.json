@@ -1,0 +1,25 @@
+{
+  "name": "WebpackDemoAppColt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arushi011/WebpackDemoAppColt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arushi011/WebpackDemoAppColt/issues"
+  },
+  "homepage": "https://github.com/arushi011/WebpackDemoAppColt#readme",
+  "devDependencies": {
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  }
+}
